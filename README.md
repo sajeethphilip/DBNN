@@ -63,8 +63,14 @@ The subdirectory query has two sample queries, one to get training/test samples 
 
 This page contains the DBNN software used in our paper on star galaxy classification. This software is licensed under the GNU Public License.
 
-### Original DBNN Software - Click is here http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SG.tar.gz
+### Original DBNN Software - Click is here 
 
-### The Training and Test sets used by us for  Classification are here http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SGData.tar.gz
+http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SG.tar.gz
 
-### The A&A paper may be found here http://www.iucaa.in/~nspp/SG2.pdf 
+### The Training and Test sets used by us for  Classification are here 
+
+http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SGData.tar.gz
+
+### The A&A paper may be found here 
+
+http://www.iucaa.in/~nspp/SG2.pdf 
