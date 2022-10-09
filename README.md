@@ -28,14 +28,14 @@ The output of the classifier is written to a .cmp file. 'Out' is a dummy label t
  
 The animations show the 3D colour cube of about 6 million objects in our catalogue. The axis are the u-g, g-r and r-i colours derived from the SDSS u,g,r,i filters. 
 
-[![SDSS 6 million objects](http://www.iucaa.in/~nspp/CC.gif)]
+[![SDSS 6 million objects]()(http://www.iucaa.in/~nspp/CC.gif)]
 
 
 This page suppliments the "PHOTOMETRIC CLASSIFICATION OF QUASARS AND OTHER POINT SOURCES IN SDSS" by Abraham et.al, with DBNN software and the steps that were followed to produce the catalog of unresolved point sources. This content is licensed under the Creative Commons License.
 
 The animation show the distribution of galaxies (black), stars (green) and quasars (blue) in sequence at different orientations of the cube.
 
-[![Galaxies QSO and Stars](http://www.iucaa.in/~nspp/CCsmooth.gif)]
+[![Galaxies QSO and Stars]()(http://www.iucaa.in/~nspp/CCsmooth.gif)]
  
 A ready to run gzipped directory of the training and test data can be ![downloaded from here](http://www.iucaa.in/~nspp/MySpace/MySpace/SDSSDR7/DBNN4SDSS.tgz)
 
@@ -64,6 +64,6 @@ This page contains the DBNN software used in our paper on star galaxy classifica
 
 ### ![Original DBNN Software - Click here](http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SG.tar.gz).
 
-### The ![Training and Test sets used by us for Qusar Classification are here](http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SGData.tar.gz). Y
+### The ![Training and Test sets used by us for Qusar Classification are here](http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SGData.tar.gz). 
 
 ### ![The A&A paper may be found here](http://www.iucaa.in/~nspp/SG2.pdf).
