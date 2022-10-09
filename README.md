@@ -23,34 +23,4 @@ autodbnn DBNN_test Out 2
 Here autodbnn is the classifier program, 'DBNN' is the name of the data file without its extension .dat, 0 for the initial round, 1 the weight updating round and 2 the test round.
 
 The output of the classifier is written to a .cmp file. 'Out' is a dummy label that allows different .cmp files to be created and stored from the same dataset for evaluations. In the above case, the command will produce the file DBNNOut.cmp and DBNN_testOut.cmp respectively for the training and test rounds. The .cmp file stores the first and second predictions along with the actual class labels and the respective confidence values the classifier has in each of its predictions. A few other intermediate files that are created and may be used for debugging are not discussed here.
-Photometric Classification of Quasars and other point sources in SDSS
-The animations show the 3D colour cube of about 6 million objects in our catalogue. The axis are the u-g, g-r and r-i colours derived from the SDSS u,g,r,i filters. The animation show the distribution of galaxies (black), stars (green) and quasars (blue) in sequence at different orientations of the cube.
-
-This page suppliments the "PHOTOMETRIC CLASSIFICATION OF QUASARS AND OTHER POINT SOURCES IN SDSS" by Abraham et.al, with DBNN software and the steps that were followed to produce the catalog of unresolved point sources. This content is licensed under the Creative Commons License.
-
-A ready to run gzipped directory of the training and test data can be downloaded from here
-
-The Revised Large Photometric Catalogue (July 2011 version) can be downloaded from here
-
-The Our Predictions for Richard's Photometric Catalogue can be downloaded from here
-How to run the code and reproduce the results
-
-You require Linux to run the software
-Download the zipped directory and unzip it. It will create a directory named DBNN with a run subdirectory. Move to the run subdirectory and issue ./test from the Linux command prompt. It will first run autodbnn with option 0, that is the configuration mode, followed by option 1, the weights update mode and finally with option 2, the test mode. Option 0 and 1 are run on the training data 7.7K size while option 2 is run on the 90K test data - all the objects that have spectroscopic confirmation from the region. That is all.
-
-The directory includes some script files that are used to format the output from DBNN to human readable form like confusion matrix
-
-The subdirectory query has two sample queries, one to get training/test samples of spectroscopically confirmed object types and the other to get photometric data to prepare the catalog. We have used R-language to produce the data files required for DBNN. The R script with functions to do it are given in the DBNN directory. To try it, run R from the directory and press up arrow Key to see the commands. R is a very simple language to use and ten minutes on the R-manual that you may find on the web can help you run the commands. Note that the first command to run is the source(makedata0.R) that initiates the functions. Change the input file name in the makeU11Tdata with the name of your file of course! Some times, if the file is very large, R may just hang swapping memory. Use the makesub perl script to make your huge input file into small sub-files and then append the results files by setting apnd=TRUE in the subsequent R commands using each of the subsamples. DBNN can handle billions of rows and so combining the outputs is okay.
-Old Data and software
-DBNN for Star Galaxy Classification Problem
-
-How To
-
-This page contains the DBNN software used in our paper on star galaxy classification. This software is licensed under the GNU Public License.
-
-Original DBNN Software - Click here.
-
-The Training and Test sets used by us are here. You can see the results of the new DBNN code on this data here.
-
-The A&A paper may be found here.
 
