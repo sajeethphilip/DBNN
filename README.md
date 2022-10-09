@@ -25,7 +25,9 @@ Here autodbnn is the classifier program, 'DBNN' is the name of the data file wit
 The output of the classifier is written to a .cmp file. 'Out' is a dummy label that allows different .cmp files to be created and stored from the same dataset for evaluations. In the above case, the command will produce the file DBNNOut.cmp and DBNN_testOut.cmp respectively for the training and test rounds. The .cmp file stores the first and second predictions along with the actual class labels and the respective confidence values the classifier has in each of its predictions. A few other intermediate files that are created and may be used for debugging are not discussed here.
 
  ## Photometric Classification of Quasars and other point sources in SDSS
+ 
  ![The animations show the 3D colour cube of about 6 million objects in our catalogue. The axis are the u-g, g-r and r-i colours derived from the SDSS u,g,r,i filters.](http://www.iucaa.in/~nspp/CC.gif) 
+ 
  ![The animation show the distribution of galaxies (black), stars (green) and quasars (blue) in sequence at different orientations of the cube.](http://www.iucaa.in/~nspp/CCsmooth.gif)
 
 This page suppliments the "PHOTOMETRIC CLASSIFICATION OF QUASARS AND OTHER POINT SOURCES IN SDSS" by Abraham et.al, with DBNN software and the steps that were followed to produce the catalog of unresolved point sources. This content is licensed under the Creative Commons License.
