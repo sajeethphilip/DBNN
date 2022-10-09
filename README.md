@@ -35,8 +35,10 @@ This page suppliments the "PHOTOMETRIC CLASSIFICATION OF QUASARS AND OTHER POINT
 
 The animation show the distribution of galaxies (black), stars (green) and quasars (blue) in sequence at different orientations of the cube.
 
+![](http://www.iucaa.in/~nspp/CCsmooth.gif)
+
  
-A ready to run gzipped directory of the training and test data can be downloaded from ![here](http://www.iucaa.in/~nspp/MySpace/MySpace/SDSSDR7/DBNN4SDSS.tgz)
+A ready to run gzipped directory of the training and test data can be downloaded from ![here]()(http://www.iucaa.in/~nspp/MySpace/MySpace/SDSSDR7/DBNN4SDSS.tgz)
 
 The Revised Large Photometric Catalogue (July 2011 version) can be downloaded from here(http://www.iucaa.in/~nspp/MySpace/MySpace/SDSSDR7/DBNN_Photometric_catalogue_July2011.zip)
 
