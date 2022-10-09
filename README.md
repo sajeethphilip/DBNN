@@ -37,11 +37,11 @@ The animation show the distribution of galaxies (black), stars (green) and quasa
 
 [![Galaxies QSO and Stars]()(http://www.iucaa.in/~nspp/CCsmooth.gif)]
  
-A ready to run gzipped directory of the training and test data can be ![downloaded from here](http://www.iucaa.in/~nspp/MySpace/MySpace/SDSSDR7/DBNN4SDSS.tgz)
+A ready to run gzipped directory of the training and test data can be ![downloaded from here]()(http://www.iucaa.in/~nspp/MySpace/MySpace/SDSSDR7/DBNN4SDSS.tgz)
 
-The Revised Large Photometric Catalogue (July 2011 version) can be ![downloaded from here](http://www.iucaa.in/~nspp/MySpace/MySpace/SDSSDR7/DBNN_Photometric_catalogue_July2011.zip)
+The Revised Large Photometric Catalogue (July 2011 version) can be ![downloaded from here]()(http://www.iucaa.in/~nspp/MySpace/MySpace/SDSSDR7/DBNN_Photometric_catalogue_July2011.zip)
 
-The Our Predictions for Richard's Photometric Catalogue can be ![downloaded from here](http://www.iucaa.in/~nspp/MySpace/MySpace/SDSSDR7/RPCDBNN_PhotometricCatalogueJune2011.fits.gz)
+The Our Predictions for Richard's Photometric Catalogue can be ![downloaded from here]()(http://www.iucaa.in/~nspp/MySpace/MySpace/SDSSDR7/RPCDBNN_PhotometricCatalogueJune2011.fits.gz)
 
 ### How to run the code and reproduce the results
 
@@ -62,8 +62,8 @@ The subdirectory query has two sample queries, one to get training/test samples 
 
 This page contains the DBNN software used in our paper on star galaxy classification. This software is licensed under the GNU Public License.
 
-### ![Original DBNN Software - Click here](http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SG.tar.gz).
+### ![Original DBNN Software - Click here]()(http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SG.tar.gz).
 
-### The ![Training and Test sets used by us for Qusar Classification are here](http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SGData.tar.gz). 
+### The ![Training and Test sets used by us for Qusar Classification are here]()(http://www.iucaa.in/~nspp/MySpace/MySpace/DBNN4SGData.tar.gz). 
 
-### ![The A&A paper may be found here](http://www.iucaa.in/~nspp/SG2.pdf).
+### ![The A&A paper may be found here]()(http://www.iucaa.in/~nspp/SG2.pdf).
